@@ -1,0 +1,20 @@
+name: compphy
+channels:
+  - conda-forge
+  - anaconda
+  - defaults
+dependencies:
+  - python=3.9.13
+  - spyder-kernels=2.1.3
+  - pip
+  - pylint
+  - black
+  - pytest
+  - numpy
+  - sympy
+  - matplotlib
+  - tqdm
+  - snakeviz
+  - scipy
+  - ffmpeg
+  - numba

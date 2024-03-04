@@ -1,0 +1,29 @@
+{
+    "editor.rulers": [
+        80,
+        120
+    ],
+    "python.testing.pytestArgs": [
+        "Ex1",
+        "Ex2"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
+    "python.terminal.activateEnvInCurrentTerminal": true,
+    "python.terminal.activateEnvironment": true,
+    "editor.formatOnSave": true,
+    "python.formatting.provider": "black",
+    "python.formatting.blackArgs": [
+        "--line-length",
+        "79",
+        "--target-version",
+        "py38"
+    ],
+    "python.linting.pylintEnabled": true,
+    "autoDocstring.docstringFormat": "pep257",
+    "autoDocstring.includeExtendedSummary": true,
+    "autoDocstring.startOnNewLine": true,
+    "cSpell.words": [
+        "vect"
+    ]
+}

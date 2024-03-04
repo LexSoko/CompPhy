@@ -1,0 +1,10 @@
+import numpy as np
+import matplotlib.pyplot as plt
+import numsolvers.runge_kutta as rk
+from tqdm import tqdm
+
+
+x = np.array([1, 2, 3])
+y = np.array([4, 5, 6])
+
+print(x**2)
